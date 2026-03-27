@@ -179,6 +179,39 @@
             <mxPoint x="690" y="-950" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="Sikh975Z5IBgLoMCBqWF-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=top;rounded=0;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;ROS&lt;br&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="170" y="-290" as="geometry" />
+        </mxCell>
+        <mxCell id="Sikh975Z5IBgLoMCBqWF-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=top;rounded=0;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Next.js&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="470" y="-290" as="geometry" />
+        </mxCell>
+        <mxCell id="Sikh975Z5IBgLoMCBqWF-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;1. picoVR发送姿态、手柄按键给ROS节点&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="350" x="880" y="-1000" as="geometry" />
+        </mxCell>
+        <mxCell id="Sikh975Z5IBgLoMCBqWF-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;前端网页socket xr →&amp;nbsp;后端https server socket xr →&amp;nbsp;后端 ws client&amp;nbsp;→&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;后端ws server&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="610" x="880" y="-960" as="geometry" />
+        </mxCell>
+        <mxCell id="Sikh975Z5IBgLoMCBqWF-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;后端ws server →&amp;nbsp;后端 ws client&amp;nbsp; →&amp;nbsp;后端https server socket control →&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;前端网页socket control&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="610" x="880" y="-840" as="geometry" />
+        </mxCell>
+        <mxCell id="Sikh975Z5IBgLoMCBqWF-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;2. ROS节点发送遥操作状态给前端页面&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="350" x="880" y="-880" as="geometry" />
+        </mxCell>
+        <mxCell id="Sikh975Z5IBgLoMCBqWF-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;3. 前端遥操作页面刚打开时，&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&amp;nbsp; &amp;nbsp; 后端https server更新遥操作状态给前端页面&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="52.59" width="350" x="880" y="-752.59" as="geometry" />
+        </mxCell>
+        <mxCell id="Sikh975Z5IBgLoMCBqWF-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;后端https server socket control →&amp;nbsp;前端网页socket control&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="610" x="880" y="-692.59" as="geometry" />
+        </mxCell>
+        <mxCell id="Sikh975Z5IBgLoMCBqWF-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;4. 前端页面与ROS节点交互，读取写入参数&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="350" x="880" y="-629" as="geometry" />
+        </mxCell>
+        <mxCell id="Sikh975Z5IBgLoMCBqWF-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;前端网页socket param →&amp;nbsp;后端https server socket param →&amp;nbsp;后端 ws client&amp;nbsp;→&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;后端ws server →&amp;nbsp;后端处理参数&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="610" x="880" y="-584.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Sikh975Z5IBgLoMCBqWF-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;后端ws server →&amp;nbsp;后端 ws client&amp;nbsp; →&amp;nbsp;后端https server socket param →&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;前端网页socket param&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="610" x="880" y="-540" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
